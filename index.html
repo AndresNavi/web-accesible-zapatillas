@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KicksPN</title>
+  <link rel="shortcut icon" href="images/IconoKicksPN.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <figure>
+      <img class="logo" id="logo" src="images/IconoKicksPN.png" alt="Logo2">
+    </figure>
+    <h1 class="txt"><span>-ONLY 4U-</span></h1>
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/banderaespaña.png" alt="idioma" width="20px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">KICKsPN</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Secciones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#hombre">Hombre</a></li>
+                  <li><a class="dropdown-item" href="#mujer">Mujer</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Búsqueda">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main class="top">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/jordan.jpeg" class="d-block" alt="Brotherhood Hombre">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/skechers.jpg" class="d-block" alt="Slides Niño/Hombre/Mujer">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/AdidasMujer.jpg" class="d-block" alt="Jordan Original">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <h2>Lista de productos</h2>
+      <!--Columnas de productos-->
+      <div id="hombre" class="hombre">
+        <h2>Hombre</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <img class="img" src="./images/crocs.jpeg" alt="crocs" width="150px" height="135px">
+            <p>50€</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img class="img" src="./images/nw.jpg" alt="newbalance" width="150px" height="135px">
+            <p>70€</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img class="img" src="./images/puma.jpg" alt="puma" width="150px" height="135px">
+            <p>70€</p>
+          </div>
+        </div>
+      </div>
+        <br>
+        <div id="mujer" class="mujer">
+        <h2>Mujer</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <img class="img" src="./images/nikemj.jpg" alt="nike" width="150px" height="135px">
+            <p>70€</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img class="img" src="./images/xtimj.jpg" alt="xti" width="150px" height="135px">
+            <p>55€</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <img class="img" src="./images/adidasmj.jpg" alt="adidas" width="150px" height="135px">
+            <p>80€</p>
+          </div>
+        </div>
+        </div>
+        <br>
+        </div>
+    </main>
+      </div>
+    <br>
+    <!--Fin de Columnas-->
+    <!--Footer-->
+    <footer class="bottom">
+      <div id="contacto" class="contacto">
+        <h2 class="texto">Contacto</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            
+            <p>Teléfono</p>
+            <p><em>+34 91 288 28 28</em></p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <p><strong>E-mail</strong></p>
+            <p><em>zapatillas@Kicks.com</em></p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <a class="enlace" href="#logo"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="50" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"/>
+            </svg></a>
+          </div>
+        </div>
+        <p class="pfooter"><strong>&copy; KicksPN, 2023.</strong></p>
+        </div>
+    </footer>
+  </body>
+</html>
+  </header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
